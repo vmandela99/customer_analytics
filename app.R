@@ -8,6 +8,7 @@ library(dplyr)       # For data manipulation functions like summarize
 library(scales)      # For dollar_format and other formatting functions
 library(lubridate)   # For floor_date and other date functions
 library(ggplot2)     # For ggplot visualizations
+library(shinylive)
 
 # UI Definition
 ui <- dashboardPage(
